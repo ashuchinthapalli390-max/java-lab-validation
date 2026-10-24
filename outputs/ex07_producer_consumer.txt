@@ -1,0 +1,25 @@
+Command: java ProducerConsumer 10
+Elapsed seconds: 0.125
+Exit code: 0
+
+Produced: 1
+Consumed: 1
+Produced: 2
+Consumed: 2
+Produced: 3
+Consumed: 3
+Produced: 4
+Consumed: 4
+Produced: 5
+Consumed: 5
+Produced: 6
+Consumed: 6
+Produced: 7
+Consumed: 7
+Produced: 8
+Consumed: 8
+Produced: 9
+Consumed: 9
+Produced: 10
+Consumed: 10
+Verified 10 items; no loss or duplicates

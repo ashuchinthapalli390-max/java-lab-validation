@@ -1,0 +1,7 @@
+Command: java ProducerConsumer 1
+Elapsed seconds: 0.125
+Exit code: 0
+
+Produced: 1
+Consumed: 1
+Verified 1 items; no loss or duplicates

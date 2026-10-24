@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?><?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="TipController" spacing="16" prefWidth="520" prefHeight="620" style="-fx-padding:36;-fx-background-color:#f3f6fb;">
+ <Label text="Tip Calculator" style="-fx-font-size:30;-fx-font-weight:bold;-fx-text-fill:#24355a;"/>
+ <Label text="Bill amount"/><TextField fx:id="bill" id="bill" text="1000"/>
+ <Label text="Tip percentage"/><TextField fx:id="percentage" id="percentage" text="15"/>
+ <Label text="Number of people"/><TextField fx:id="people" id="people" text="2"/>
+ <Button id="calculate" text="Calculate" onAction="#calculate" maxWidth="Infinity" style="-fx-background-color:#315bbb;-fx-text-fill:white;-fx-padding:12;"/>
+ <HBox spacing="20"><Label text="Tip:"/><Label fx:id="tip" id="tip" text="--"/></HBox>
+ <HBox spacing="20"><Label text="Total:"/><Label fx:id="total" id="total" text="--"/></HBox>
+ <HBox spacing="20"><Label text="Per person:"/><Label fx:id="perPerson" id="perPerson" text="--" style="-fx-font-weight:bold;"/></HBox>
+ <Label fx:id="error" id="error" text="" wrapText="true" style="-fx-text-fill:#9c2232;"/>
+</VBox>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?><?import javafx.scene.image.Image?><?import javafx.scene.image.ImageView?><?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" spacing="24" prefWidth="560" prefHeight="440" style="-fx-padding:36;-fx-background-color:#f3f6fb;">
+ <Label text="Welcome to JavaFX" style="-fx-font-size:28;-fx-font-weight:bold;-fx-text-fill:#24355a;"/>
+ <ImageView id="picture" fitWidth="400" fitHeight="240" preserveRatio="true"><image><Image url="@sample.png"/></image></ImageView>
+ <Label text="Label and ImageView in FXML" style="-fx-font-size:14;"/>
+</VBox>

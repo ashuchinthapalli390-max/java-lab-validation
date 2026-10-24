@@ -1,0 +1,5 @@
+Command: java TipCalculatorApp --snapshot
+Elapsed seconds: 1.843
+Exit code: 0
+
+GUI calculation and invalid-input event checks passed

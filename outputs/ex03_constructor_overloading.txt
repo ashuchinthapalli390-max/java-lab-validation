@@ -1,0 +1,16 @@
+Command: java ConstructorOverloading 
+Elapsed seconds: 0.188
+Exit code: 0
+
+Person 1:
+Name: Alice
+Age: 30
+
+Person 2:
+Name: Bob
+Age: 0
+
+Person 3:
+Name: Unknown
+Age: 0
+

@@ -1,0 +1,5 @@
+import javafx.application.Application;import javafx.application.Platform;import javafx.fxml.FXMLLoader;import javafx.scene.Parent;import javafx.scene.Scene;import javafx.stage.Stage;import javafx.scene.image.ImageView;
+public final class LabelImageApp extends Application{
+ public void start(Stage stage)throws Exception{Parent root=FXMLLoader.load(getClass().getResource("label-image.fxml"));stage.setTitle("JavaFX Label and ImageView");stage.setScene(new Scene(root));boolean snapshot=getParameters().getRaw().contains("--snapshot");if(snapshot){stage.setX(-10000);stage.setY(-10000);}stage.show();if(snapshot)Platform.runLater(()->{try{ImageView image=(ImageView)root.lookup("#picture");if(image.getImage()==null||image.getImage().isError())throw new AssertionError("Image failed to load");FxSnapshot.save(root,"outputs/ex08_label_image.png");System.out.println("FXML Label and ImageView loaded successfully");}catch(Throwable e){e.printStackTrace();System.exit(1);}finally{Platform.exit();}});}
+ public static void main(String[] args){launch(args);}
+}

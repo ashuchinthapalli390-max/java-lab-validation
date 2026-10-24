@@ -1,0 +1,6 @@
+Command: java BinarySearch 
+Elapsed seconds: 0.172
+Exit code: 0
+
+Searching for element: 5
+4

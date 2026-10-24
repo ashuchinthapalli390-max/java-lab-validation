@@ -1,0 +1,7 @@
+Command: java DaemonThreadDemo 
+Elapsed seconds: 0.188
+Exit code: 0
+
+Daemon status before start: true
+Daemon thread running: true
+Main completed; daemon does not keep JVM alive

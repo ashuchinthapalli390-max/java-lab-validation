@@ -1,0 +1,5 @@
+Command: java LabelImageApp --snapshot
+Elapsed seconds: 1.688
+Exit code: 0
+
+FXML Label and ImageView loaded successfully
